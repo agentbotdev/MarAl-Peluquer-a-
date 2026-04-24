@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Pacifico&family=Outfit:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-script: "Pacifico", cursive;
+  
+  --color-brand: #e94191;
+  --color-brand-soft: #fff0f6;
+  --color-gold: #b89150;
+  --color-whatsapp: #99efc1;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+.rounded-huge {
+  border-radius: 2.5rem;
+}
